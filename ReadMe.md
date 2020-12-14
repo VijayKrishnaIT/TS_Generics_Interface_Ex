@@ -17,3 +17,7 @@
 # Who can provide implementation?
 
 - Classes or JSON object provided by implementation.
+
+## Classes or json object (non generics)
+
+## functions (generics)

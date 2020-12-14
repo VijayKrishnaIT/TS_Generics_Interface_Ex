@@ -84,6 +84,7 @@ obj("hello1", "hello2");        //hello1 hello2
 
 */
 
+/*
 interface interface1<A> {
     (arg1: A): void;
 };
@@ -100,3 +101,13 @@ obj("Hello1");           //Hello1
 
 let obj1: interface1<number> = fun_two;
 obj1(100);                 //100
+*/
+
+interface interface1 {
+    arg1: any;
+}
+let obj: interface1 = {
+    arg1: "Hello1"
+}
+
+console.log(obj.arg1);  //Hello1
